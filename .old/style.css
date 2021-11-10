@@ -27,7 +27,7 @@
     width: 23px;
     height: 17px;
     background-color: var(--primColor);
-    border: 2px solid var(--secoColor);
+    border: 3px solid var(--secoColor);
     border-radius: var(--cornerRad);
     color: var(--secoColor);
     cursor: pointer;
@@ -126,7 +126,7 @@
 #icon{
     color: #47167d;
     position: absolute;
-    top: 40px;
+    top: 39px;
     left: 140px;
     font-size: 40px;
     
@@ -134,7 +134,7 @@
 #icone{
     color: #47167d;
     position: absolute;
-    top: 40px;
+    top: 43px;
     left: 250px;
     font-size: 42px;
     width: 48px;
@@ -148,6 +148,50 @@
 .photodeprofil img{
     width: 181px;
     position: relative;
-    left: 100;
+    left: 93px;
     border-radius: 50%;
+    top: -20px;
+}
+#Desc p{
+  padding: 0px 10px;
+  margin: 0px 14px; 
+  text-align: center;
+  color: #765996;
+}
+#Profil h1{
+  text-align: center;
+  position: relative;
+  top: 20px;
+  color: #47167d;
+}
+
+
+
+.button-cv {
+  background: #5E5DF0;
+  border-radius: 999px;
+  box-shadow: #5E5DF0 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  font-family: 'Glacial-Indifference-Regular';
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+  position: relative;
+  top: 25px;
+  right: 84px;
+}
+.button-cv a{
+  color: #FFFFFF;
+  text-decoration: none;
 }
