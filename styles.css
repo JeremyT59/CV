@@ -7,11 +7,13 @@
   font-weight: normal;
   font-style: normal;
 }
-
+header{
+	height: 100px;
+}
 body {
 	padding: 0;
 	margin: 0;
-  background-color: #efefef;
+  	background-color: #efefef;
 }
 .container {
 	position: relative;
@@ -124,11 +126,11 @@ nav .icon-burger .line {
 	}
 	
 }
-
+.Photo{
+	padding: 20px;
+}
 .Photo img{
   width: 160px;
-  position: relative;
-  top: 120px;
   border-radius: 200px;
 }
 .Photo{
@@ -137,11 +139,10 @@ nav .icon-burger .line {
 
 .button{
   text-align: center;
+  padding: 20px;
 }
 
 .buttoncv{
-  position: relative;
-  top: 125px;
   background-image: linear-gradient(144deg,#47167d, #7900ff 50%,#ff7948);
   padding: 9px 19px;
   border-radius: 40px;
@@ -151,4 +152,126 @@ nav .icon-burger .line {
   text-decoration: none;
   font-family: 'Glacial-Indifference-Regular';
 }
- 
+#Profil{
+	text-align: center;
+}
+#Profil h2{
+	font-family: 'Glacial-Indifference-Regular';
+}
+.paraprofil{	
+	text-align: center;
+
+}
+.paraprofil p {
+	font-family: 'Glacial-Indifference-Regular';
+	padding-left: 25px;
+	padding-right: 25px;
+	color: #765996;
+	box-sizing: border-box;
+	
+}
+#CSS{
+	width: 24px;
+}
+#HTML{
+	width: 24px;
+}
+#Competences{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	box-sizing: border-box;
+	background-color:#efefef ;
+	padding: 0px 15px;
+	
+}
+#Competences div{
+	margin: 20px 0;
+}
+#Competences svg{
+	padding: 0px 10px;
+
+}
+.Competences {
+	font-family: 'Glacial-Indifference-Regular';
+	text-align: center;
+	width: 100%;
+	padding: 0px 15px;
+}
+.logohtcs{
+	flex-direction: row;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	border: solid 2px #765996;
+	border-radius: 10px;
+	background-image: url("image/courbe.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	padding: 15px;
+	flex: auto;
+}
+.Competencepara{
+	padding-right: 10px;
+	font-family: 'Glacial-Indifference-Regular';
+	color: #765996;
+}
+#PS{
+	width: 48px;
+}
+#competenceps{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	box-sizing: border-box;
+	background-color:#efefef ;
+}
+.logoparaps{
+	flex-direction: row;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	border: solid 2px #765996;
+	border-radius: 10px;
+	background-image: url("image/courbe2.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	flex: auto;
+	background-position-x: 230px;
+	background-position-y: 3px;
+}
+.paraps{
+	padding-right: 10px;
+	font-family: 'Glacial-Indifference-Regular';
+	color: #765996;
+	
+}
+#AI{
+	width: 48px;
+}
+.logoparaps img{
+	padding-left: 10px;
+	padding-right: 25px;
+}
+.logoparaai img{
+	padding-left: 10px;
+	padding-right: 25px;
+}
+
+.logoparaai{
+	flex-direction: row;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	border: solid 2px #765996;
+	border-radius: 10px;
+	background-image: url("image/courbe.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	padding: 15px;
+	flex: auto;
+}
+.paraai{
+	font-family: 'Glacial-Indifference-Regular';
+	color: #765996;
+}
