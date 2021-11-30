@@ -9,15 +9,18 @@
 </head>
 <body>
     <header>
-        <!--Barre de nav-->
+        <!--Barre de nav pc-->
         <nav>
             <input id="nav-toggle" type="checkbox">
-            <div class="logo">Jérémy<strong>Trzebiatowski</strong></div>
+            <div class="logoMobile">
+                Jérémy<strong>Trzebiatowski</strong>
+            </div>
             <ul class="links">
+                <li class="logo">Jérémy<strong>Trzebiatowski</strong></li>
                 <li><a href="#Profil">Profil</a></li>
-                <li><a href="#home">Compétences</a></li>
+                <li><a href="#Compétences">Compétences</a></li>
+                <li><a href="#Formations">Formations</a></li>
                 <li><a href="#about">Experiences</a></li>
-                <li><a href="#work">Formations</a></li>
                 <li><a href="#projects">Portfolio</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
@@ -29,24 +32,20 @@
         </nav>
     </header>
     <main>
-        <section>
+        <section id="Profil">
             <!--Photo de profil-->
             <div class="Photo">
                 <img src="image/moi.jpg" alt="Photo de profil">
             </div>
-        </section>
-        <section>
             <!--Button de cv-->
             <div class="button">
                 <a href="cv-jeremy-2021.pdf" target="_blank">Telecharger le CV</a>
             </div>
-        </section>
-        <section>
-            <!--Profil paragraphe-->
-        <section id="Profil">
+            <!--Titres-->
             <div class="profiltitre">
                 <h2>Profil</h2>
             </div>
+            <!--Profil paragraphe-->
             <div class="paraprofil">
                 <p>
                   Je suis un jeune designer graphique. Je suis une personne patiente à l'écoute et très sociable. Mes projets se concentre essentiellement sur la suite Adobe.
@@ -62,7 +61,9 @@
                 <a href="https://github.com/JeremyT59" target="_blank" ><img src="image/git.svg" alt="Logo Git"></a>
             </div>
         </section>
-        <section>
+        <!--Compétences-->
+        <section id="Compétences">
+            <div class="compétitre"><h2>Compétences</h2></div>
             <div class="container">
                 <div class="card">
                     <div class="face face1">
@@ -73,10 +74,10 @@
                     </div>
                     <div class="face face2">
                         <div class="content">
-                            <p>Réalissation de logo</p>
-                            <p>Réalisation d'affiche/flyers</p>
-                            <p>Réalisation de maquette web / brochure</p>
-                            <p>Création de carte de visite personnalisée</p>
+                            <p>Réalissation de logo.</p>
+                            <p>Réalisation d'affiche/flyers.</p>
+                            <p>Réalisation de maquette web / brochure.</p>
+                            <p>Création de carte de visite personnalisée.</p>
                                 <a href="#">Read More</a>
                         </div>
                     </div>
@@ -90,10 +91,10 @@
                     </div>
                     <div class="face face2">
                         <div class="content">
-                            <p>Création de site wab de A à Z</p>
-                            <p>Utilisation de git</p>
-                            <p>Réalisation de site web responsive</p>
-                            <p>Réalisaion de CV en ligne</p>
+                            <p>Création de site wab de A à Z.</p>
+                            <p>Utilisation de git.</p>
+                            <p>Réalisation de site web responsive.</p>
+                            <p>Réalisaion de CV en ligne.</p>
                                 <a href="#">Read More</a>
                         </div>
                     </div>
@@ -102,3 +103,81 @@
             
             </div>
         </section>
+        <!--Formations-->
+        <section id="Formations">
+            <div class="formatitre">
+                <h2>Formations</h2>
+            </div>
+            <div class="containertimeline">
+                <div class="timeline">
+                    <ul>
+                        <li>
+                            <div class="timeline-content">
+                                <h3 class="date">2017-2018</h3>
+                                <h1>Université de Valenciennes</h1>
+                                <p>Licence</p>
+                                <p>Arts plastiques</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-content">
+                                <h3 class="date">2016-2017</h3>
+                                <h1>Lycée du pays de condé</h1>
+                                <p>Formation</p>
+                                <p>Infographie</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-content">
+                                <h3 class="date">2015-2016</h3>
+                                <h1>Lycée du pays de condé</h1>
+                                <p>Brevet de technicien supérieur</p>
+                                <p>Conception Réalisation Systémes Automatisé.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-content">
+                                <h3 class="date">2012-2015</h3>
+                                <h1>Lycée du pays de condé</h1>
+                                <p>Baccalauréat professionel</p>
+                                <p>Electrotechnique</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="Experiences">
+            <div class="cardexp" onclick="this.classList.toggle('ouverture')">
+                <img src="image/logo.png" alt="logoageval" class="label">
+                <div class="text1">
+                    <div class="text-content">
+                        <h1 class="title">09/21-Aujourd'hui</h1>
+                        <div class="body-text">
+                            <p>Salarié Polyvalent</p>
+                            <p>Atelier Numérique</p>
+                        </div>
+                    </div>
+                </div>
+                <svg class="flecheexp" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 35" width="30">
+                    <path d="M5 30L50 5l45 25" fill="none" stroke="#000" stroke-width="5" />
+                </svg>
+            </div>
+            <div class="cardexp" onclick="this.classList.toggle('ouverture')">
+                <img src="image/tampere.png" alt="logotampere" class="label2">
+                <div class="text2">
+                    <div class="text-content">
+                        <h1 class="title">02/15-03/15</h1>
+                        <div class="body-text">
+                            <p>Stagiaire</p>
+                        </div>
+                    </div>
+                </div>
+                <svg class="flecheexp" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 35" width="30">
+                    <path d="M5 30L50 5l45 25" fill="none" stroke="#000" stroke-width="5" />
+                </svg>
+            </div>
+
+        </section>
+    </main>
+</body>
