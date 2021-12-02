@@ -290,7 +290,7 @@
 }
 
 /*Card experiences*/
-.Experiences {
+#Experiences {
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -373,11 +373,152 @@
 .body-text {
   padding: 0 20px;
 }
+.exptitre{
+  text-align: center;
+  margin-bottom: 20px;
+}
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+
+.grid {
+  width: 100%;
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.grid-block {
+  width: 30%;
+  min-height: 11.25rem;
+  padding: 1rem;
+}
+
+
+
+.image-grid .tile-link:hover .tile-img {
+  top: -1rem;
+  left: -1rem;
+}
+
+.image-grid .tile-img {
+  position: relative;
+  top: 0;
+  left: 0;
+  -webkit-transition-property: opacity, top, left, box-shadow;
+  transition-property: opacity, top, left, box-shadow;
+}
+
+.tile-link {
+  display: block;
+}
+
+.tile-link:hover .tile-img {
+  opacity: 1;
+}
+
+.tile-link:hover .tile-img-link {
+  display: block;
+}
+
+.tile-link:hover .tile-img-link:hover .tile-img {
+  opacity: 0.5;
+}
+
+.tile-img {
+  display: block;
+  width: 100%;
+  height: auto;
+  opacity: 1;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  -webkit-transition-duration: 0.125s;
+  transition-duration: 0.125s;
+  -webkit-transition-timing-function: ease-in;
+  transition-timing-function: ease-in;
+}
+.tile-link:hover .tile-img1 {
+  box-shadow: 5px 5px rgba(219, 206, 27, 0.4),
+    10px 10px rgba(190, 180, 26, 0.3), 15px 15px rgba(192, 137, 19, 0.2),
+    20px 20px rgba(192, 121, 16, 0.1), 25px 25px rgba(255, 196, 0, 0.05);
+}
+
+.tile-link:hover .tile-img2 {
+  box-shadow: 5px 5px rgba(233, 45, 45, 0.4), 10px 10px rgba(233, 45, 45, 0.3),
+    15px 15px rgba(233, 45, 45, 0.2), 20px 20px rgba(233, 45, 45, 0.1),
+    25px 25px rgba(255, 0, 0, 0.05);
+}
+
+.tile-link:hover .tile-img3 {
+  box-shadow: 5px 5px rgba(214, 221, 244, 0.4),
+    10px 10px rgba(214, 221, 244, 0.3), 15px 15px rgba(214, 221, 244, 0.2),
+    20px 20px rgba(214, 221, 244, 0.1), 25px 25px rgba(214, 221, 244, 0.05);
+}
+
+.tile-link:hover .tile-img4 {
+  box-shadow: 5px 5px rgba(82, 119, 192, 0.4), 10px 10px rgba(82, 119, 192, 0.3),
+    15px 15px rgba(82, 119, 192, 0.2), 20px 20px rgba(82, 119, 192, 0.1),
+    25px 25px rgba(82, 119, 192, 0.05);
+}
+
+.tile-link:hover .tile-img5 {
+  box-shadow: 5px 5px rgba(138, 218, 245, 0.4),
+    10px 10px rgba(138, 218, 245, 0.3), 15px 15px rgba(138, 218, 245, 0.2),
+    20px 20px rgba(138, 218, 245, 0.1), 25px 25px rgba(138, 218, 245, 0.05);
+}
+
+.tile-link:hover .tile-img6 {
+  box-shadow: 5px 5px rgba(203, 215, 193, 0.4),
+    10px 10px rgba(203, 215, 193, 0.3), 15px 15px rgba(203, 215, 193, 0.2),
+    20px 20px rgba(203, 215, 193, 0.1), 25px 25px rgba(203, 215, 193, 0.05);
+}
+
+.tile-link:hover .tile-img7 {
+  box-shadow: 5px 5px rgba(91, 209, 250, 0.4), 10px 10px rgba(91, 209, 250, 0.3),
+    15px 15px rgba(91, 209, 250, 0.2), 20px 20px rgba(91, 209, 250, 0.1),
+    25px 25px rgba(91, 209, 250, 0.05);
+}
+
+.tile-link:hover .tile-img8 {
+  box-shadow: 5px 5px rgba(0, 0, 0, 0.4), 10px 10px rgba(0, 0, 0, 0.3),
+    15px 15px rgba(0, 0, 0, 0.2), 20px 20px rgba(0, 0, 0, 0.1),
+    25px 25px rgba(4, 140, 231, 0.05);
+}
+
+.tile-link:hover .tile-img9 {
+  box-shadow: 5px 5px rgba(0, 0, 0, 0.4), 10px 10px rgba(0, 0, 0, 0.3),
+    15px 15px rgba(0, 0, 0, 0.2), 20px 20px rgba(0, 0, 0, 0.1),
+    25px 25px rgba(4, 140, 231, 0.05);;
+}
+
+.tile-link:hover .tile-img10 {
+  box-shadow: 5px 5px rgba(0, 0, 0, 0.4), 10px 10px rgba(0, 0, 0, 0.3),
+    15px 15px rgba(0, 0, 0, 0.2), 20px 20px rgba(0, 0, 0, 0.1),
+    25px 25px rgba(4, 140, 231, 0.05);
+}
+
 /*Responsive mobile*/
 @media screen and (max-width: 767px) {
   nav .logoMobile{
     display:flex;
-        align-self: center;
+    align-self: center;
+      }
+      nav .logo{
+        display: none;
       }
       nav .links {
         float: none;
@@ -414,7 +555,7 @@
         nav :checked ~ .icon-burger .line:nth-child(2) {
           opacity: 0;
         }
-       .Experiences {
+       #Experiences {
          display: block;
         }
         .cardexp {
@@ -488,15 +629,62 @@
       left: calc(50% - 20px);
       transform: translateX(-50%);
     }
+    .grid-block{
+      width: 70%;
+      min-height: 11.25rem;
+      padding: 1rem;
+    }
+    .image-grid .tile-img{
+      left: -25px;
+    }
+    .tile-img{
+      width: 290px;
+    }
   }
+
   /*media tablette*/
   @media screen and (min-width: 768px) and (max-width:1023px) {
-    nav{
-      position: sticky;
-    }
-    nav .logoMobile{
-      display: none;
-    }
+      nav .logoMobile{
+        display: flex;
+      }
+      nav .logo{
+        display: none;
+      }
+      nav .links {
+        float: none;
+          position: fixed;
+          z-index: 9;
+          left: 0;
+          right: 0;
+          top: 100px;
+          bottom: 100%;
+          width: auto;
+          height: auto;
+          flex-direction: column;
+          justify-content: space-evenly;
+          background-color: #765996;
+          overflow: hidden;
+          box-sizing: border-box;
+          transition: all .5s ease-in-out;
+        }
+        nav .links a {
+          font-size: 20px;
+        }
+        nav :checked ~ .links {
+          bottom: 0;
+        }
+        nav .icon-burger {
+          display: block;
+        }
+        nav :checked ~ .icon-burger .line:nth-child(1) {
+          transform: translateY(10px) rotate(225deg);
+        }
+        nav :checked ~ .icon-burger .line:nth-child(3) {
+          transform: translateY(-10px) rotate(-225deg);
+        }
+        nav :checked ~ .icon-burger .line:nth-child(2) {
+          opacity: 0;
+        }
     .timeline:before {
       content: "";
       position: absolute;
@@ -555,10 +743,28 @@
     .container{
       flex-direction: row;
     }
-    .Experiences{
+    #Experiences{
       flex-direction: row;
     }
-  
+    .cardexp.ouverture .text2 {
+      clip-path: polygon(0% 100%,0% -90%,15% -80%,17.23% -63.59%,23% -50%,27.23% -38.94%,35% -30%,41.09% -23.59%,50% -20%,58.91% -23.23%,65% -30%,72.77% -38.23%,77% -50%,82.77% -64.65%,85% -80%,100% -90%,100% 100%);
+      -webkit-clip-path: polygon(0% 100%,0% -90%,15% -80%,17.23% -63.59%,23% -50%,27.23% -38.94%,35% -30%,41.09% -23.59%,50% -20%,58.91% -23.23%,65% -30%,72.77% -38.23%,77% -50%,82.77% -64.65%,85% -80%,100% -90%,100% 100%);
+    }
+    .text-content {
+      transform: translateY(-185px);
+      transition: transform 1000ms;
+    }
+    .cardexp.ouverture .text-content {
+      transform: translateY(0px);
+    }
+    .grid-block{
+      width: 35%;
+      min-height: 11.25rem;
+      padding: 1rem;
+    }
+    .tile-img{
+      width: 290px;
+    }
   }
   /*Responsive PC*/
 @media screen and (min-width:1024px) {
@@ -625,7 +831,7 @@
     .date{
       color: #47167d;
     }
-    .Experiences{
+    #Experiences{
       flex-direction: row;
     }
     .cardexp{
@@ -638,14 +844,16 @@
       
     }
     .button{
-      position: absolute;
-      bottom: 550px;
-      left: 468px;
+      margin-top: 20px;
     }
-   
+    .profiltitre{
+      margin-top: 20px;
+    }
     /*responsive card compétences*/
+    #Compétences{
+      clear: both;
+    }
     .container{
-    width: 1000px;
     position: relative;
     display: flex;
     justify-content: space-between;
@@ -733,4 +941,16 @@
       background: #333;
       color: #fff;
   }
+  /*responsive card experience*/
+  .cardexp.ouverture .text2 {
+      clip-path: polygon(0% 100%,0% -90%,15% -80%,17.23% -63.59%,23% -50%,27.23% -38.94%,35% -30%,41.09% -23.59%,50% -20%,58.91% -23.23%,65% -30%,72.77% -38.23%,77% -50%,82.77% -64.65%,85% -80%,100% -90%,100% 100%);
+      -webkit-clip-path: polygon(0% 100%,0% -90%,15% -80%,17.23% -63.59%,23% -50%,27.23% -38.94%,35% -30%,41.09% -23.59%,50% -20%,58.91% -23.23%,65% -30%,72.77% -38.23%,77% -50%,82.77% -64.65%,85% -80%,100% -90%,100% 100%);
+    }
+    .text-content {
+      transform: translateY(-185px);
+      transition: transform 1000ms;
+    }
+    .cardexp.ouverture .text-content {
+      transform: translateY(0px);
+    }
 }
