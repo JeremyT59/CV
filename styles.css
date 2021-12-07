@@ -260,7 +260,7 @@
 .timeline ul li {
   padding: 20px;
   background-color: #1e1f22;
-  background-image: url(image/courbe2.png);
+  background-image: url(images/courbe2.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position-x: right;
@@ -511,9 +511,8 @@ html {
     25px 25px rgba(4, 140, 231, 0.05);
 }
 footer{
-  position: fixed;
   bottom: 0;
-  height: 200px;
+  height: 284px;
   background-color: #47167d;
 }
 .footer-distributed{
@@ -524,6 +523,7 @@ footer{
 	font: bold 16px sans-serif;
 	padding: 50px 50px 60px 50px;
 	margin-top: 80px;
+  max-width: 1280px;
 }
 .footer-distributed .footer-left,
 .footer-distributed .footer-center,
@@ -565,6 +565,7 @@ footer{
 	line-height: 1.0;
 	text-decoration: none;
 	color:  inherit;
+  padding: 0 5px;
 }
 
 .footer-distributed .footer-company-name{
@@ -582,7 +583,6 @@ footer{
 
 
 .footer-distributed .footer-center i{
-	background-color:  #33383b;
 	color: #ffffff;
 	font-size: 25px;
 	width: 38px;
@@ -614,7 +614,7 @@ footer{
 }
 
 .footer-distributed .footer-center p a{
-	color:  #e0ac1c;
+	color:  #efefef;
 	text-decoration: none;;
 }
 
@@ -650,10 +650,10 @@ footer{
 	width: 35px;
 	height: 35px;
 	cursor: pointer;
-	background-color:  #33383b;
+
 	border-radius: 2px;
 
-	font-size: 20px;
+	font-size: 26px;
 	color: #ffffff;
 	text-align: center;
 	line-height: 35px;
@@ -666,22 +666,6 @@ footer{
 /* You can remove below code if you don't want Footer to be responsive */
 
 
-@media (max-width: 880px) {
-
-	.footer-distributed .footer-left,
-	.footer-distributed .footer-center,
-	.footer-distributed .footer-right{
-		display: block;
-		width: 100%;
-		margin-bottom: 40px;
-		text-align: center;
-	}
-
-	.footer-distributed .footer-center i{
-		margin-left: 0;
-	}
-
-}
 /*Responsive mobile*/
 @media screen and (max-width: 767px) {
   nav .logoMobile{
@@ -805,12 +789,34 @@ footer{
       min-height: 11.25rem;
       padding: 1rem;
     }
-    .image-grid .tile-img{
-      left: -25px;
+    .grid{
+      padding-right: 200px;
     }
+
     .tile-img{
       width: 290px;
     }
+    	.footer-distributed .footer-left,
+	  .footer-distributed .footer-center,
+	  .footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+  footer{
+    height: 505px;
+  }
+  .footer-links{
+    display: none;
+  }
+  .footer-center{
+   margin: 0 -15px;
+  }
   }
 
   /*media tablette*/
@@ -937,7 +943,8 @@ footer{
       width: 290px;
     }
     footer { 
-      position: static; 
+      position: static;
+      height: 490px; 
     }
     .footer-distributed .footer-left,
 	.footer-distributed .footer-center,
@@ -951,6 +958,12 @@ footer{
 	.footer-distributed .footer-center i{
 		margin-left: 0;
 	}
+  .footer-links{
+    display: none;
+  }
+  .footer-center{
+    margin:0 -15px;
+  }
 
   }
   /*Responsive PC*/
@@ -1027,7 +1040,7 @@ footer{
     /*responsive profil*/
     .Photo{
       float: left;
-      margin-left: 150px;
+      margin-left: 130px;
       
     }
     .button{
@@ -1139,5 +1152,17 @@ footer{
     }
     .cardexp.ouverture .text-content {
       transform: translateY(0px);
+    }
+    /*footer responsive*/
+    footer{
+      height: 284px;
+    }
+    /*resposive profil*/
+    .paraprofil{
+      padding-top: 10px;
+      padding-bottom: 20px;
+    }
+    .Photo{
+      padding-right: 155px;
     }
 }
