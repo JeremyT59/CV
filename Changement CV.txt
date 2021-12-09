@@ -1,0 +1,11 @@
+changement cv 
+
+-problème favicon
+-animé bouton cv 
+-agrandir le bouton portfolio dans cards compétences
+-padding footer 
+- enlever les href du portfolio 
+- enlever le bold de la nav 
+-modifer hauteur footer 
+-modifier hauteur texte footer 
+-background color plus sombr 1 section sur 2 
