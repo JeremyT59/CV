@@ -164,17 +164,19 @@
     margin: none;
     padding: 0;
     font-family: 'Glacial-Indifference-Regular';
-    max-width: 1280px;
 }
 
 .container{
     display: flex;
     flex-direction: column;
+    padding-top: 20px;
+    max-width: 1280px;
     /* text-align: center; */
 }
 .compétitre h2{
     text-align: center;
-    padding: 20px;
+    padding-bottom: 20px; 
+    margin-top: 20px;
 }
 
 .container .card{
@@ -231,6 +233,9 @@
     color: #333;
     padding: 5px;
     border: 1px solid #333;
+    padding: 5px 26px;
+    position: relative;
+    left: 65px;
 }
 
 .card{
@@ -298,6 +303,7 @@
   flex-direction: column;
   justify-content: center;
   margin: 0;
+  padding: 40px;
 }
  
 .cardexp {
@@ -393,10 +399,10 @@ html {
 .grid {
   width: 100%;
   max-width: 1280px;
-  margin-left: auto;
+  margin-left: 15px;
   margin-right: auto;
   margin-top: 100px;
-
+  align-self: center;
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
@@ -663,9 +669,9 @@ footer{
 	margin-right: 3px;
 	margin-bottom: 5px;
 }
-
-/* Here is the code for Responsive Footer */
-/* You can remove below code if you don't want Footer to be responsive */
+.separation{
+  background-color: #d9d9d9;
+}
 
 
 /*Responsive mobile*/
@@ -1135,8 +1141,10 @@ footer{
       text-decoration: none;
       font-weight: 900;
       color: #47167d;
-      padding: 5px;
       border: 1px solid #333;
+      padding: 5px 26px;
+      position: relative;
+      left: 65px;
   }
 
   .container .card .face.face2 .content a:hover{
@@ -1166,5 +1174,8 @@ footer{
     }
     .Photo{
       padding-right: 155px;
+    }
+    .grid{
+      margin-left: auto;
     }
 }
