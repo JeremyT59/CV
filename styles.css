@@ -177,6 +177,7 @@
     text-align: center;
     padding-bottom: 20px; 
     margin-top: 20px;
+    clear: both;
 }
 
 .container .card{
@@ -1188,5 +1189,8 @@ footer{
     }
     .grid{
       margin-left: auto;
+    }
+    .footer-center{
+      padding-left: 20px;
     }
 }
